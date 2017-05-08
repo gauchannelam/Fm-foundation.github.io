@@ -19,7 +19,7 @@ h1 {
 h3 {
   color: DarkMagenta;
   text-align: center;
-  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 h4 {
@@ -33,20 +33,28 @@ h4 {
   padding: 10px 0px;
   text-align: center;
 }
+.info h3 {
+  color: DarkSlateGrey   ;
+}
 
 .about {
   display: inline-block;
   width: 45%;
+  vertical-align: text-top;
 }
+
 
 .about img {
   height: 10%;
-  width: 10%%;
+  width: 35%;
   border-radius: 25px;
 }
 
 .about p {
   text-align: start;
+  font-family: 'Caslon', sans-serif;
+
+
 }
 
 .link {
@@ -81,4 +89,8 @@ h4 {
   text-transform: uppercase;
   font-size: 11px;
   text-align: center;
+}
+
+.about-me{
+  height:300px;
 }
